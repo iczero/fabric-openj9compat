@@ -1,29 +1,29 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
+  "id": "openj9compat",
   "version": "${version}",
 
-  "name": "Example Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "name": "OpenJ9 compatibility fixes",
+  "description": "Allows running Minecraft 1.16.2 with the OpenJ9 VM",
   "authors": [
-    "Me!"
+    "iczero"
   ],
   "contact": {
-    "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
+    "homepage": "https://github.com/iczero/fabric-openj9compat",
+    "sources": "https://github.com/iczero/fabric-openj9compat"
   },
 
   "license": "CC0-1.0",
-  "icon": "assets/modid/icon.png",
+  "icon": "assets/openj9compat/icon.png",
 
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.fabricmc.example.ExampleMod"
+      "net.hellomouse.openj9compat.Mod"
     ]
   },
   "mixins": [
-    "modid.mixins.json"
+    "openj9compat.mixins.json"
   ],
 
   "depends": {
