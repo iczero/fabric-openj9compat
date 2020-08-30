@@ -17,18 +17,12 @@
   "icon": "assets/openj9compat/icon.png",
 
   "environment": "*",
-  "entrypoints": {
-    "main": [
-      "net.hellomouse.openj9compat.Mod"
-    ]
-  },
   "mixins": [
     "openj9compat.mixins.json"
   ],
 
   "depends": {
     "fabricloader": ">=0.7.4",
-    "fabric": "*",
     "minecraft": "1.16.x"
   },
   "suggests": {
