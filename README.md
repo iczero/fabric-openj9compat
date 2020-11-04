@@ -1,5 +1,14 @@
 # Minecraft 1.16.2 OpenJ9 Compatibility
 
+## Note
+
+This has been fixed in upstream OpenJ9 release
+[0.23.0](https://github.com/eclipse/openj9/releases/tag/openj9-0.23.0)
+(commit [ac3cd72](https://github.com/eclipse/openj9/commit/ac3cd7299d79258701a88196600e6fa3c42a0021)).
+This release has been built by [AdoptOpenJDK](https://adoptopenjdk.net/?variant=openjdk11&jvmVariant=openj9).
+It is no longer necessary to use this mod for 1.16.2 or any future Minecraft
+versions if you are using OpenJ9 >=0.23.0.
+
 Allows running Minecraft 1.16.2 using the more memory-efficient OpenJ9 VM.
 
 ## Technical details
